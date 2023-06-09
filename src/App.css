@@ -1,38 +1,212 @@
-.App {
+body {
+  margin-bottom: 90px;
+  margin-top: 100px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Css for Home-page */
+.welcome-text {
+  margin: 5px 110px;
+  padding: 5px;
+}
+.loop-container {
+  max-width: 90%;
+  margin: 10px auto;
+  text-align: center;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.carousel-image {
+  width: 95%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.loop-info-card {
+  background-color: rgba(128, 128, 128, 0.9);
+  color: antiquewhite;
+  font-family: cursive;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translate(-90%, -10%);
+  padding: 10px;
+  width: 30%;
+  margin: 0 auto;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.carousel-btn {
+  margin: 0px 5px;
+}
+.drone-image {
+  max-width: 70%;
+}
+.drone-container {
+  margin: 70px 30px;
+}
+
+/* ¨¨¨¨Navbar¨¨¨¨ */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3498db;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+  padding: 1%;
+  height: 63%;
+  width: 6%;
+  max-width: 10%;
+}
+.img-logo {
+  width: 90%;
+  height: 90%;
+  max-width: 100%;
+}
+.cart {
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  height: 100%;
+  width: 10%;
+  position: relative;
+}
+.cart-icon {
+  width: 40%;
+  height: 40%;
+}
+.order-count {
+  position: absolute;
+  top: 15%;
+  right: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
   color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.color-white {
+  color:bisque;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* ¨¨¨¨Footer¨¨¨¨ */
+.footer {
+  background-color: #f39c12;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* All media  */
+@media (max-width: 1200px) {
+  .welcome-text {
+    margin: 5px 80px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .logo-container {
+    width: 15%;
+    height: 75%;
+  }
+
+  .img-logo {
+    width: 60%;
+  }
+}
+@media (max-width: 1024px) {
+  .welcome-text {
+    margin: 5px 60px;
+  }
+
+  .logo-container {
+    width: 15%;
+    height: 80%;
+  }
+
+  .img-logo {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome-text {
+    margin: 5px 50px;
+  }
+
+  .loop-info-card {
+    width: 80%;
+    position: static;
+    transform: none;
+  }
+
+  .logo-container {
+    width: 20%;
+    height: 86%;
+  }
+
+  .img-logo {
+    width: 95%;
+  }
+
+  .order-count {
+    top: 20%;
+    right: 25%;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-text {
+    margin: 5px 30px;
+  }
+  .loop-info-card {
+    width: 90%;
+    margin: 0;
+  }
+
+  .logo-container {
+    width: 15%;
+    height: 89%;
+  }
+
+  .img-logo {
+    width: 90%;
+  }
+  .order-count {
+    top: 25%;
+    right: 15%;
   }
 }

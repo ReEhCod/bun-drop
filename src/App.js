@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./Meny.css";
+import "./ShopingCart.css";
+import "./Payment.css";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Hem from "./routes/Hem";
+import Meny from "./routes/Meny";
+import Beställning from "./routes/Beställning";
+import Betalning from "./routes/Betalning";
+import NotFound from "./routes/NotFound";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import { OrderProvider } from "./contexts/OrderContext";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <OrderProvider>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Hem />} />
+          <Route path="/meny" element={<Meny />} />
+          <Route path="/beställning" element={<Beställning />} />
+          <Route path="/betalning" element={<Betalning />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Footer />
+      </OrderProvider>
     </div>
   );
 }

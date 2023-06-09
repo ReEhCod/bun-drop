@@ -1,0 +1,111 @@
+.payment-page {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.payment-header {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.delivery-time {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-form-container {
+  margin-bottom: 20px;
+}
+
+.payment-alternative-swish,
+.payment-alternative-card {
+  margin-bottom: 10px;
+}
+
+.payment-swish,
+.payment-card {
+  margin-bottom: 10px;
+}
+
+.expire-cvc {
+  display: flex;
+  justify-content: center;
+}
+
+.cvc,
+.expiery-date {
+  display: flex;
+  justify-content: center;
+  margin: 0 3px;
+}
+
+.payment-card input,
+.payment-swish input {
+  width: 100%;
+  margin: 7px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.error-message,
+.user-info p,
+.payment-card p,
+.payment-swish p {
+  color: red;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.payment-action {
+  text-align: center;
+}
+
+.payment-action h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.payment-action button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.payment-action button:hover {
+  background-color: #45a049;
+}
+
+/* ^^^^^^^^ User info ^^^^^^^^ */
+.user-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.info-card {
+  margin-bottom: 10px;
+}
+.info-card input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.city-postalcode {
+  display: flex;
+  justify-content: space-between;
+}
+.city,
+.postalcode {
+  width: 48%;
+}
+.city input,
+.postalcode input {
+  width: 100%;
+}

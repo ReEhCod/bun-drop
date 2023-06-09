@@ -1,0 +1,188 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "BunD SuperBurger",
+      "price": 119.95,
+      "image": "images/BunD Super Burger.png",
+      "category": "burgers"
+    },
+    {
+      "id": 2,
+      "name": "Bacon & Cheese",
+      "price": 90.95,
+      "image": "images/Bacon & Cheese.png",
+      "category": "burgers"
+    },
+    {
+      "id": 3,
+      "name": "BunD Chicken Special",
+      "price": 85.9,
+      "image": "images/BunD Chicken Special.png",
+      "category": "burgers"
+    },
+    {
+      "id": 4,
+      "name": "BunD DubbleBurger",
+      "price": 95.95,
+      "image": "images/BunD DubbleBurger.png",
+      "category": "burgers"
+    },
+    {
+      "id": 5,
+      "name": "BunD Special",
+      "price": 110.95,
+      "image": "images/BunD Special.png",
+      "category": "burgers"
+    },
+    {
+      "id": 6,
+      "name": "BunD DubbleJuicy",
+      "price": 85.9,
+      "image": "images/BunD DubbleJuicy.png",
+      "category": "burgers"
+    },
+    {
+      "id": 7,
+      "name": "BunDop Burger",
+      "price": 72.95,
+      "image": "images/bunDrop burger.png",
+      "category": "burgers"
+    },
+    {
+      "id": 8,
+      "name": "BunDrop Bacon",
+      "price": 78.83,
+      "image": "images/BunDrop Bacon.png",
+      "category": "burgers"
+    },
+    {
+      "id": 9,
+      "name": "Juicy Cheese Burger",
+      "price": 78.83,
+      "image": "images/Juicy Cheese Burger.png",
+      "category": "burgers"
+    },
+    {
+      "id": 10,
+      "name": "Frappé Caramel",
+      "price": 30.0,
+      "image": "images/Frappe Caramel.jpg",
+      "category": "desserts"
+    },
+    {
+      "id": 11,
+      "name": "Green Shake delux",
+      "price": 35.0,
+      "image": "images/Green Shake delux.jpg",
+      "category": "desserts"
+    },
+    {
+      "id": 12,
+      "name": "Äpplepaj",
+      "price": 35.0,
+      "image": "images/Äpplepaj.jpg",
+      "category": "desserts"
+    },
+    {
+      "id": 13,
+      "name": "BunDIce Oreo",
+      "price": 40.0,
+      "image": "images/Flurry oreo.jpg",
+      "category": "desserts"
+    },
+    {
+      "id": 14,
+      "name": "Sundae strössel",
+      "price": 25.0,
+      "image": "images/Sundae strössel.jpg",
+      "category": "desserts"
+    },
+    {
+      "id": 15,
+      "name": "Milkshake BunDelux",
+      "price": 35.0,
+      "image": "images/milkshake-1.png",
+      "category": "desserts"
+    },
+    {
+      "id": 16,
+      "name": "Frida",
+      "price": 30.0,
+      "image": "images/Frida.png",
+      "category": "drinks"
+    },
+    {
+      "id": 17,
+      "name": "Olipop Kolsyrad",
+      "price": 30.0,
+      "image": "images/Olipop.png",
+      "category": "drinks"
+    },
+    {
+      "id": 18,
+      "name": "Positive Energy Zero",
+      "price": 35.0,
+      "image": "images/Positive Energy Zero.png",
+      "category": "drinks"
+    },
+    {
+      "id": 19,
+      "name": "Calpis",
+      "price": 25.0,
+      "image": "images/Clpis Water.png",
+      "category": "drinks"
+    },
+    {
+      "id": 20,
+      "name": "Fanta Orange",
+      "price": 30.0,
+      "image": "images/Fanta.jpg",
+      "category": "drinks"
+    },
+    {
+      "id": 21,
+      "name": "Coca Cola",
+      "price": 30.0,
+      "image": "images/Coca cola.jpg",
+      "category": "drinks"
+    },
+    {
+      "id": 22,
+      "name": "Chicken Nuggets 6 st",
+      "price": 30.99,
+      "image": "images/Chicken nuggets.jpg",
+      "category": "snacks"
+    },
+    {
+      "id": 23,
+      "name": "Pommes Frites",
+      "sizes": [
+        {
+          "id": 1,
+          "name": "Liten",
+          "price": 20.0
+        },
+        {
+          "id": 2,
+          "name": "Mellan",
+          "price": 25.0
+        },
+        {
+          "id": 1,
+          "name": "Stor",
+          "price": 30.0
+        }
+      ],
+      "image": "images/PommesBD.jpg",
+      "category": "snacks"
+    },
+    {
+      "id": 24,
+      "name": "Hot Wings",
+      "price": 35.45,
+      "image": "images/hot wings.jpg",
+      "category": "snacks"
+    }
+  ]
+}
